@@ -13,7 +13,7 @@
 
 <AnchorPane prefHeight="639.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="upchiapas.proyect.controllers.RegistroController">
    <children>
-      <ImageView fitHeight="813.0" fitWidth="441.0" layoutX="-2.0" layoutY="-169.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="813.0" fitWidth="449.0" layoutY="-157.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets.img/Captura%20de%20pantalla%202022-06-13%20191445.jpg" />
          </image>
@@ -21,7 +21,7 @@
             <ColorAdjust brightness="-0.64" />
          </effect>
       </ImageView>
-      <AnchorPane layoutX="81.0" layoutY="259.0" opacity="0.26" prefHeight="275.0" prefWidth="287.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 11%;">
+      <AnchorPane layoutX="82.0" layoutY="259.0" opacity="0.26" prefHeight="275.0" prefWidth="287.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 11%;">
          <effect>
             <ColorAdjust />
          </effect>

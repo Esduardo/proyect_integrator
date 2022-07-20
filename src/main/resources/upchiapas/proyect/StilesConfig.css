@@ -1,0 +1,21 @@
+.Usuario{
+
+}
+.botonSalir{
+    -fx-background-color: #EE3434;
+    -fx-background-radius: 25px;
+    -fx-text-color: #FFFFFF;
+}
+
+.desarroolladores {
+    -fx-background-color: #04010D;
+}
+.menus:hover{
+    -fx-background-color: rgba(59, 59, 59, 0.75);
+}
+
+.button:hover{
+    -fx-background-radius: 22px;
+    -fx-background-color: rgb(232, 80, 80);
+    -fx-border-color: rgba(0, 0, 0, 0);
+}

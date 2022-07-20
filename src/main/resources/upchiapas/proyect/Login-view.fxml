@@ -40,21 +40,12 @@
             <Font size="35.0" />
          </font>
       </Label>
-      <Label layoutX="152.0" layoutY="229.0" text="comas con conciencia..." textFill="#7ab3fff5">
-         <effect>
-            <ColorAdjust brightness="0.48" contrast="-1.0" hue="-1.0" saturation="1.0" />
-         </effect>
-      </Label>
-      <Label layoutX="132.0" layoutY="190.0" prefHeight="48.0" prefWidth="184.0" text="Cocinamos con amor para que" textFill="#00ffdd" wrapText="true">
-         <effect>
-            <ColorAdjust brightness="0.48" contrast="-1.0" hue="-1.0" saturation="1.0" />
-         </effect>
-      </Label>
+      <Label layoutX="152.0" layoutY="229.0" styleClass="textoMostrar" stylesheets="@StilesInicio.css" text="comas con conciencia..." textFill="#fffffff5" />
+      <Label layoutX="132.0" layoutY="190.0" prefHeight="48.0" prefWidth="184.0" styleClass="textoMostrar" stylesheets="@StilesInicio.css" text="Cocinamos con amor para que" textFill="WHITE" wrapText="true" />
       <Label layoutX="205.0" layoutY="277.0" text="Label" />
       <TextField fx:id="txtEmail" layoutX="113.0" layoutY="282.0" prefHeight="26.0" prefWidth="222.0" promptText="Email" style="-fx-background-color: #FFFFFF;" />
       <PasswordField fx:id="txtPassword" layoutX="113.0" layoutY="329.0" prefHeight="26.0" prefWidth="222.0" promptText="Password" style="-fx-background-color: #FFFFFF;" />
-      <Button fx:id="btnIniciarSesion" layoutX="112.0" layoutY="379.0" mnemonicParsing="false" onMouseClicked="#btnIniciarOnMouseClick" opacity="0.73" prefHeight="30.0" prefWidth="222.0" style="-fx-background-color: #000000;" text="Entrar" textFill="WHITE" />
-      <Button fx:id="btnSalirSesion" layoutX="113.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouseClick" opacity="0.73" prefHeight="30.0" prefWidth="222.0" style="-fx-background-color: #000000;" text="Salir" textFill="WHITE" />
+      <Button fx:id="btnSalirSesion" layoutX="113.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouseClick" prefHeight="30.0" prefWidth="222.0" styleClass="buttonInicio" stylesheets="@StilesInicio.css" text="Salir" textFill="WHITE" />
       <Separator layoutX="18.0" layoutY="66.0" opacity="0.3" prefHeight="0.0" prefWidth="401.0" />
       <Separator layoutX="21.0" layoutY="560.0" opacity="0.3" prefHeight="0.0" prefWidth="401.0" />
       <Label layoutX="113.0" layoutY="471.0" text="¿No tienes ninguna cuenta?" textFill="WHITE">
@@ -70,5 +61,6 @@
             <Font size="11.0" />
          </font>
       </Hyperlink>
+      <Button fx:id="btnIniciarSesion" cache="true" cacheHint="QUALITY" layoutX="112.0" layoutY="379.0" mnemonicParsing="false" onMouseClicked="#btnIniciarOnMouseClick" prefHeight="30.0" prefWidth="222.0" styleClass="buttonInicio" stylesheets="@StilesInicio.css" text="Entrar" textFill="WHITE" />
    </children>
 </AnchorPane>

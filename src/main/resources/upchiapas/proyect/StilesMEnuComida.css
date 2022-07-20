@@ -1,0 +1,15 @@
+.combo:hover{
+    -fx-background-color: rgb(255, 239, 113);
+}
+.combo-box{
+    -fx-background-radius: 20px;
+}
+
+.button{
+    -fx-background-radius: 17px;
+    -fx-background-color: rgba(161, 161, 161, 0.10);
+}
+
+.button:hover{
+    -fx-background-color:  rgba(161, 161, 161, 0.40);
+}

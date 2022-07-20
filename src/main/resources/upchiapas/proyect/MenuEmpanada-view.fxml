@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="upchiapas.proyect.controllers.MenuFootEmpanada">
+   <children>
+      <ImageView fitHeight="639.0" fitWidth="439.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/fondo.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.97" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/menu%20.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="66.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menú y Precios">
+         <font>
+            <Font name="Trebuchet MS" size="17.0" />
+         </font>
+      </Text>
+      <Line endX="204.0" layoutX="102.0" layoutY="42.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="0.976303317535545" endY="1.0" startX="0.26540284360189575">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.36970028281211853" green="0.4651285409927368" blue="0.6710526347160339" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Button fx:id="btnRegresar" layoutX="359.0" mnemonicParsing="false" onMouseClicked="#btnRegresarOnMouseClick" opacity="0.0" prefHeight="46.0" prefWidth="70.0" text="Button" />
+      <AnchorPane layoutY="122.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/quesadilla%20Lista.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="244.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/quesadilla%20Lista.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="366.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/quesadilla%20Lista.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="488.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/quesadilla%20Lista.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="bntRegresar" accessibleRole="BUTTON" fitHeight="98.0" fitWidth="70.0" layoutX="359.0" layoutY="-12.0" onMouseClicked="#btnRegresarOnMouseClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/flechas-en-fondo-blanco-conjunto-vectorial-icono-de-dirección-negras-vectoriales-simple-169401717.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

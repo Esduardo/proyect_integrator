@@ -1,0 +1,25 @@
+
+/*MENU DE COMIDA*/
+.images{
+    -fx-background-radius: 30px;
+}
+.menu{
+    -fx-background-color: #6de76e;
+}
+/*INICIAR SESION*/
+.textoMostrar{
+    -fx-text-fill: #9FBBF4;
+}
+/*BUTTONS*/
+.button{
+    -fx-background-radius: 10px ;
+    -fx-opacity: 12px;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+}
+.button:hover{
+    -fx-background-radius: 22px;
+    -fx-background-color: rgba(30, 30, 30, 0.7);
+    -fx-border-color: rgba(0, 0, 0, 0);
+}
+
+

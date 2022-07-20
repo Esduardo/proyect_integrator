@@ -13,7 +13,7 @@ import upchiapas.proyect.models.ValideUser;
 public class ConfiguracionesController extends ValideUser {
 
     @FXML
-    private static Label lblNameUsuario;
+    private  Label lblNameUsuario;
     @FXML
     private AnchorPane btnDesarrolladores;
 
@@ -25,10 +25,6 @@ public class ConfiguracionesController extends ValideUser {
 
 
     static void usuario(String txtEmail){
-        String email = txtEmail;
-        for(int i = 0; i < ValideUser.admins.size(); i++){
-            lblNameUsuario.setText(ValideUser.admins.get(i).getNombre());
-        }
     }
     @FXML
     void btnDesarrolladoresOnMouseClick(MouseEvent event) {
@@ -43,6 +39,11 @@ public class ConfiguracionesController extends ValideUser {
     @FXML
     void btnRegresarOnMouseClick(MouseEvent event) {
         Main.setFXML("MenuComida-view", "Registro - Express Foot");
+    }
+
+    @FXML
+    public void initialize(){
+        lblNameUsuario.setText(String.valueOf(Main.getStage().getUserData()));
     }
 
 }

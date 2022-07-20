@@ -1,0 +1,17 @@
+.selection{
+    -fx-background-color: #000000;
+    -fx-border-color: rgba(206, 255, 247, 0.61);
+    -fx-border-width: 0.1px;
+}
+
+.texto{
+    -fx-font-family: "Roboto Light";
+    -fx-font-style: bold;
+}
+.text-area{
+    -fx-background-color: rgb(255, 0, 0);
+}
+.selection:hover{
+    -fx-background-color: rgba(157, 224, 224, 0.39);
+    -fx-font-size: 14px;
+}

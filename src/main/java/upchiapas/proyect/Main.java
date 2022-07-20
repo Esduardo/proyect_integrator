@@ -19,6 +19,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         this.stage = stage;
+        listaUsers.add(new User("juan","juan@com","1234"));
         scene = new Scene(loadFXML("login-view"));
         stage.setTitle("Login - Express Foot");
         stage.setScene(scene);
@@ -43,6 +44,7 @@ public class Main extends Application {
         stage.setResizable(false);
         stage.setTitle(title);
     }
+    public static Stage getStage(){ return stage;}
     public static void main(String[] args) {
         launch();
     }

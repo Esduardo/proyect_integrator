@@ -8,42 +8,38 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="upchiapas.proyect.controllers.MenuComidaController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="upchiapas.proyect.controllers.MenuComidaController">
    <children>
-      <ImageView fitHeight="663.0" fitWidth="466.0" layoutX="-4.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView cache="true" fitHeight="639.0" fitWidth="439.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets.img/fondo.jpg" />
          </image>
          <effect>
-            <ColorAdjust brightness="-0.83" />
+            <ColorAdjust brightness="-0.93" />
          </effect>
       </ImageView>
-      <Text fill="WHITE" layoutX="39.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comidas" wrappingWidth="139.3333282470703">
-         <font>
-            <Font name="Leelawadee UI Semilight" size="36.0" />
-         </font>
-      </Text>
-      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="13.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="237.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/quesadillaFondo.jpg" />
+            <Image url="@assets.img/hamburguesaFondo.png" />
          </image>
+         <effect>
+            <ColorAdjust brightness="-0.5" />
+         </effect>
       </ImageView>
-      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="246.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="20.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/Hamburquesa.jpg" />
+            <Image url="@assets.img/empanadas.png" />
          </image>
+         <effect>
+            <ColorAdjust brightness="-0.5" />
+         </effect>
       </ImageView>
-      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="13.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@assets.img/empanadas.jpg" />
-         </image>
-      </ImageView>
-      <AnchorPane layoutY="576.0" opacity="0.67" prefHeight="61.0" prefWidth="439.0" style="-fx-background-color: #000000; -fx-background-radius: 11%; -fx-border-radius: 100%;">
+      <AnchorPane layoutY="574.0" opacity="0.67" prefHeight="65.0" prefWidth="429.0" style="-fx-background-color: #000000;">
          <effect>
             <ColorAdjust />
          </effect>
          <children>
-            <ImageView fitHeight="51.0" fitWidth="30.0" layoutX="331.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="51.0" fitWidth="30.0" layoutX="311.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets.img/bebidaNoPantalla.png" />
                </image>
@@ -51,37 +47,40 @@
                   <ColorAdjust brightness="1.0" contrast="-1.0" hue="1.0" saturation="1.0" />
                </effect>
             </ImageView>
-            <ImageView fitHeight="51.0" fitWidth="73.0" layoutX="75.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+            <Button fx:id="btnMenuBebida" layoutX="284.0" layoutY="3.0" mnemonicParsing="false" onMouseClicked="#btnMenuBebidaOnMouseClick" opacity="0.0" prefHeight="59.0" prefWidth="80.0" text="btnBebida" />
+            <ImageView fitHeight="51.0" fitWidth="75.0" layoutX="78.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets.img/png-transparent-fast-food-hamburger-drawing-coloring-book-comida-rapida-angle-white-food%20(2).png" />
                </image>
             </ImageView>
-            <Button fx:id="btnMenuBebida" layoutX="304.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#btnMenuBebidaOnMouseClick" opacity="0.0" prefHeight="59.0" prefWidth="80.0" text="btnBebida" />
          </children>
       </AnchorPane>
-      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="247.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="237.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="237.0">
          <image>
-            <Image url="@assets.img/nisi.jpg" />
+            <Image url="@assets.img/sopaNisi.png" />
          </image>
+         <effect>
+            <ColorAdjust brightness="-0.5" />
+         </effect>
       </ImageView>
-      <Text fill="#fffefe" layoutX="290.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maruchan">
+      <Text fill="#fffefe" layoutX="266.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Maruchan -">
          <font>
-            <Font size="21.0" />
+            <Font size="20.0" />
          </font>
       </Text>
-      <Text fill="#fcf9f9" layoutX="49.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empanadas">
+      <Text fill="#fcf9f9" layoutX="40.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Empanadas -">
          <font>
-            <Font size="21.0" />
+            <Font size="20.0" />
          </font>
       </Text>
-      <Text fill="#fcf8f8" layoutX="265.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hambuerguesa">
+      <Text fill="#fcf8f8" layoutX="243.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Hambuerguesa -">
          <font>
-            <Font size="21.0" />
+            <Font size="20.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="49.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quesadillas">
+      <Text fill="WHITE" layoutX="39.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Quesadillas - ">
          <font>
-            <Font size="21.0" />
+            <Font size="20.0" />
          </font>
       </Text>
       <ImageView fitHeight="28.0" fitWidth="21.0" layoutX="390.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
@@ -89,7 +88,7 @@
             <Image url="@assets.img/ajustes.png" />
          </image>
          <effect>
-            <ColorAdjust brightness="0.36" />
+            <ColorAdjust brightness="0.7" />
          </effect>
       </ImageView>
       <ImageView fitHeight="28.0" fitWidth="21.0" layoutX="356.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
@@ -97,7 +96,7 @@
             <Image url="@assets.img/notificacion.png" />
          </image>
          <effect>
-            <ColorAdjust brightness="0.36" />
+            <ColorAdjust brightness="0.7" />
          </effect>
       </ImageView>
       <AnchorPane layoutX="305.0" layoutY="22.0" prefHeight="28.0" prefWidth="42.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 11%;">
@@ -112,6 +111,79 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <Button fx:id="btnConfig" layoutX="388.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#btnConfigOnMouseClick" opacity="0.0" prefHeight="21.0" prefWidth="24.0" text="Button" />
+      <Button fx:id="btnConfig" accessibleRole="IMAGE_VIEW" layoutX="389.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#btnConfigOnMouseClick" opacity="0.0" prefHeight="21.0" prefWidth="24.0" text="Button">
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect></Button>
+      <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="20.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/QUESADILLA.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.5" />
+         </effect>
+      </ImageView>
+      <Text fill="#fcf8f8" layoutX="33.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comida">
+         <font>
+            <Font name="Gill Sans MT" size="35.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="34.0" layoutY="139.0" prefHeight="9.0" prefWidth="58.0" style="-fx-background-color: #000000;" styleClass="images" stylesheets="@StilesInicio.css">
+         <children>
+            <AnchorPane layoutX="-14.0" prefHeight="18.0" prefWidth="61.0" style="-fx-background-color: #000000;">
+               <children>
+                  <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets.img/40354.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+                  <Text fill="#0d61b5" layoutX="24.0" layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12%oN" wrappingWidth="32.0">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btonMenuQuesadilla" layoutX="20.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#bntQuesadillaOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
+      <Button fx:id="btnMenuHamburguesa" layoutX="237.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#btnHamburguesaOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
+      <Button fx:id="btnMenuEmpanadas" layoutX="20.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#btnEmpanadasOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
+      <Button fx:id="btnMenuMaruchan" layoutX="237.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#btnMaruchanOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="161.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+         <image>
+            <Image url="@assets.img/menu.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="384.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+         <image>
+            <Image url="@assets.img/menu.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="161.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+         <image>
+            <Image url="@assets.img/menu.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="384.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+         <image>
+            <Image url="@assets.img/menu.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
    </children>
 </AnchorPane>
