@@ -1,0 +1,19 @@
+
+
+
+
+/*CONFIRGURACIONES*/
+    .Usuario{
+
+    }
+    .botonSalir{
+        -fx-background-color: #EE3434;
+        -fx-background-radius: 25px;
+        -fx-text-color: #FFFFFF;
+    }
+
+    .desarroolladores{
+        -fx-background-color: #04010D;
+    }
+
+

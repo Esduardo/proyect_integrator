@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="upchiapas.proyect.controllers.MenuBebidasController">
+   <children>
+      <ImageView fitHeight="663.0" fitWidth="466.0" layoutX="-4.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/fondo.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.83" />
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="295.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sodas">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="93.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Café">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="57.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Licuados">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="276.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chocomilk">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="228.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/pochomilk.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/licuados.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="7.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/cafe.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="39.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bebidas" wrappingWidth="139.3333282470703">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="36.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="315.0" layoutY="32.0" prefHeight="28.0" prefWidth="42.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 11%;">
+         <children>
+            <ImageView fitHeight="36.0" fitWidth="46.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/Carrito%20de%20compras.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.01" contrast="-1.0" hue="-0.04" saturation="1.0" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="28.0" fitWidth="21.0" layoutX="366.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/notificacion.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.36" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="21.0" layoutX="400.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets.img/ajustes.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.36" />
+         </effect>
+      </ImageView>
+      <AnchorPane layoutY="576.0" opacity="0.67" prefHeight="61.0" prefWidth="439.0" style="-fx-background-color: #000000; -fx-background-radius: 11%; -fx-border-radius: 100%;">
+         <effect>
+            <ColorAdjust />
+         </effect>
+         <children>
+            <ImageView fitHeight="51.0" fitWidth="30.0" layoutX="319.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/png-transparent-fast-food-hamburger-drawing-coloring-book-comida-rapida-angle-white-food(1)%20(1).png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.47" />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="73.0" layoutX="75.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/comida.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="1.0" />
+               </effect>
+            </ImageView>
+            <Button fx:id="btnMenuComida" layoutX="66.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#btnMenuComidaOnMouseClick" opacity="0.0" prefHeight="59.0" prefWidth="81.0" text="btnMenuComida" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
