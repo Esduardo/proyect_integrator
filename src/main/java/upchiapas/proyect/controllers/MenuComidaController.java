@@ -13,7 +13,7 @@ import upchiapas.proyect.Main;
 import java.io.IOException;
 
 
-public class MenuComidaController extends Application {
+public class MenuComidaController {
     @FXML
     private Button btnMenuMaruchan;
     @FXML
@@ -42,26 +42,22 @@ public class MenuComidaController extends Application {
 
     @FXML
     void btnEmpanadasOnMouseClick(MouseEvent event) throws IOException {
-
+        Main.setFXML("MenuEmpanada-view", "Menu - Express Foot");
     }
 
     @FXML
     void btnHamburguesaOnMouseClick(MouseEvent event) {
-
+        Main.setFXML("MenuHamburguesa-view", "Menu - Express Foot");
     }
 
     @FXML
     void btnMaruchanOnMouseClick(MouseEvent event) {
+        Main.setFXML("MenuMaruchan-view", "Menu - Express Foot");
     }
 
     @FXML
     void bntQuesadillaOnMouseClick(MouseEvent event) {
-        Main.setFXML("MenuEmpanada-view", "Menu - Express Foot");
-    }
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        ScrollPane sc = new ScrollPane();
+        Main.setFXML("MenuQuesadilla-view", "Menu - Express Foot");
     }
 }
 

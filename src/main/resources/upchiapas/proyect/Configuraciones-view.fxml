@@ -14,7 +14,7 @@
    <children>
       <ImageView fitHeight="639.0" fitWidth="439.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/kfconsole-4.jpg" />
+            <Image url="@assets.img/2_fondoMenus.jpg" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.95" contrast="-0.26" saturation="0.01" />
@@ -27,19 +27,19 @@
       </Text>
       <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="52.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" styleClass="Stiles.css:otoUsuario">
          <image>
-            <Image url="@assets.img/585e4beacb11b227491c3399.png" />
+            <Image url="@assets.img/fotoUsuario.png" />
          </image>
          <effect>
             <ColorAdjust brightness="0.61" />
          </effect>
       </ImageView>
       <Text fill="#fcf8f8" layoutX="130.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Express Food Free" />
-      <ImageView fx:id="btnRegresar" accessibleRole="BUTTON" fitHeight="74.0" fitWidth="44.0" layoutX="23.0" layoutY="16.0" onMouseClicked="#btnRegresarOnMouseClick" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="btnRegresar" accessibleRole="BUTTON" fitHeight="74.0" fitWidth="44.0" layoutX="23.0" layoutY="18.0" onMouseClicked="#btnRegresarOnMouseClick" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/flechas-en-fondo-blanco-conjunto-vectorial-icono-de-dirección-negras-vectoriales-simple-169401717.png" />
+            <Image url="@assets.img/regresar.png" />
          </image>
          <effect>
-            <ColorAdjust brightness="0.38" />
+            <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
       <Line endX="278.0" layoutX="107.0" layoutY="176.0" startX="-65.0">
@@ -63,7 +63,7 @@
                   </ImageView>
                   <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="326.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets.img/png-transparent-arrow-computer-icons-greater-than-sign-arrow-angle-triangle-symbol-thumbnail%20(1).png" />
+                        <Image url="@assets.img/entrar.png" />
                      </image>
                      <effect>
                         <ColorAdjust brightness="0.49" />
@@ -80,15 +80,15 @@
                   </Text>
                   <ImageView fitHeight="36.0" fitWidth="32.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets.img/Captura%20de%20pantalla%202022-06-15%20013512.jpg" />
+                        <Image url="@assets.img/logoOficial.jpg" />
                      </image>
                      <effect>
-                        <ColorAdjust brightness="-0.24" />
+                        <ColorAdjust />
                      </effect>
                   </ImageView>
                   <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="327.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets.img/png-transparent-arrow-computer-icons-greater-than-sign-arrow-angle-triangle-symbol-thumbnail%20(1).png" />
+                        <Image url="@assets.img/entrar.png" />
                      </image>
                      <effect>
                         <ColorAdjust brightness="0.49" />
@@ -110,7 +110,7 @@
                   </ImageView>
                   <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="326.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets.img/png-transparent-arrow-computer-icons-greater-than-sign-arrow-angle-triangle-symbol-thumbnail%20(1).png" />
+                        <Image url="@assets.img/entrar.png" />
                      </image>
                      <effect>
                         <ColorAdjust brightness="0.49" />
@@ -128,7 +128,7 @@
             <ColorAdjust brightness="0.05" />
          </effect>
       </Button>
-      <Label fx:id="lblNameUsuario" layoutX="130.0" layoutY="108.0" prefHeight="23.0" prefWidth="239.0" stylesheets="@Stiles.css" textFill="WHITE">
+      <Label fx:id="lblNameUsuario" layoutX="130.0" layoutY="108.0" prefHeight="23.0" prefWidth="239.0" styleClass="Usuario" stylesheets="@StilesConfig.css" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

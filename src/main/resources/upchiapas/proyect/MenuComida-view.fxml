@@ -12,7 +12,7 @@
    <children>
       <ImageView cache="true" fitHeight="639.0" fitWidth="439.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/fondo.jpg" />
+            <Image url="@assets.img/2_fondoMenus.jpg" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.93" />
@@ -20,7 +20,7 @@
       </ImageView>
       <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="237.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/hamburguesaFondo.png" />
+            <Image url="@assets.img/fondoHamburguesa.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -28,7 +28,7 @@
       </ImageView>
       <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="20.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/empanadas.png" />
+            <Image url="@assets.img/fondoempanadas.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -41,23 +41,23 @@
          <children>
             <ImageView fitHeight="51.0" fitWidth="30.0" layoutX="311.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/bebidaNoPantalla.png" />
+                  <Image url="@assets.img/seeccionMenuBebidaNoPantalla.png" />
                </image>
                <effect>
                   <ColorAdjust brightness="1.0" contrast="-1.0" hue="1.0" saturation="1.0" />
                </effect>
             </ImageView>
-            <Button fx:id="btnMenuBebida" layoutX="284.0" layoutY="3.0" mnemonicParsing="false" onMouseClicked="#btnMenuBebidaOnMouseClick" opacity="0.0" prefHeight="59.0" prefWidth="80.0" text="btnBebida" />
+            <Button fx:id="btnMenuBebida" layoutX="215.0" layoutY="1.0" mnemonicParsing="false" onMouseClicked="#btnMenuBebidaOnMouseClick" opacity="0.0" prefHeight="59.0" prefWidth="214.0" text="btnBebida" />
             <ImageView fitHeight="51.0" fitWidth="75.0" layoutX="78.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/png-transparent-fast-food-hamburger-drawing-coloring-book-comida-rapida-angle-white-food%20(2).png" />
+                  <Image url="@assets.img/seleccionMenuHam.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
       <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="237.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="237.0">
          <image>
-            <Image url="@assets.img/sopaNisi.png" />
+            <Image url="@assets.img/fondoNisi.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -103,7 +103,7 @@
          <children>
             <ImageView fitHeight="36.0" fitWidth="46.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/Carrito%20de%20compras.png" />
+                  <Image url="@assets.img/carritoCompras.png" />
                </image>
                <effect>
                   <ColorAdjust brightness="0.01" contrast="-1.0" hue="-0.04" saturation="1.0" />
@@ -117,7 +117,7 @@
          </effect></Button>
       <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="20.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/QUESADILLA.png" />
+            <Image url="@assets.img/fondoQuesadilla.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -134,7 +134,7 @@
                <children>
                   <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets.img/40354.png" />
+                        <Image url="@assets.img/descuentoPrecio.png" />
                      </image>
                      <effect>
                         <ColorAdjust brightness="1.0" />
@@ -149,37 +149,37 @@
             </AnchorPane>
          </children>
       </AnchorPane>
-      <Button fx:id="btonMenuQuesadilla" layoutX="20.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#bntQuesadillaOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
-      <Button fx:id="btnMenuHamburguesa" layoutX="237.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#btnHamburguesaOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
-      <Button fx:id="btnMenuEmpanadas" layoutX="20.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#btnEmpanadasOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
-      <Button fx:id="btnMenuMaruchan" layoutX="237.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#btnMaruchanOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="161.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <Button fx:id="btonMenuQuesadilla" layoutX="20.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#bntQuesadillaOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMenu.css" />
+      <Button fx:id="btnMenuHamburguesa" layoutX="237.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#btnHamburguesaOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMenu.css" />
+      <Button fx:id="btnMenuEmpanadas" layoutX="20.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#btnEmpanadasOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMenu.css" />
+      <Button fx:id="btnMenuMaruchan" layoutX="237.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#btnMaruchanOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMenu.css" />
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="161.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="384.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="384.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="161.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="161.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="384.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="384.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />

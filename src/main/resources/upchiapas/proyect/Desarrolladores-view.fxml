@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="639.0" fitWidth="439.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/kfconsole-4.jpg" />
+            <Image url="@assets.img/2_fondoMenus.jpg" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.95" contrast="-0.26" saturation="0.01" />
@@ -25,10 +25,10 @@
       </Text>
       <ImageView fx:id="btnRegresarDesarrro" accessibleRole="BUTTON" fitHeight="74.0" fitWidth="44.0" layoutX="24.0" layoutY="17.0" onMouseClicked="#btnRegresarDesarrollaOnMouseClick" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/flechas-en-fondo-blanco-conjunto-vectorial-icono-de-dirección-negras-vectoriales-simple-169401717.png" />
+            <Image url="@assets.img/regresar.png" />
          </image>
          <effect>
-            <ColorAdjust brightness="0.38" />
+            <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
       <AnchorPane layoutX="36.0" layoutY="113.0" prefHeight="271.0" prefWidth="351.0">

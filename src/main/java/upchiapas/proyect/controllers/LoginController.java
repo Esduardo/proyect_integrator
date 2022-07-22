@@ -3,7 +3,6 @@ package upchiapas.proyect.controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.paint.Color;
 import upchiapas.proyect.Main;
 import upchiapas.proyect.models.ValideUser;
 
@@ -47,7 +46,12 @@ public class LoginController {
             Main.setFXML("MenuComida-view", "Menu - Express Foot");
         }
         else {
-            System.out.println("Mensaje con alert de usurio no encontrado");
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setTitle("Login");
+            alert.setContentText("Error de inicio de Sesión");
+            alert.showAndWait();
+            Main.setFXML("Login-view", "Login - Express Foot");
         }
     }
     @FXML

@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="639.0" fitWidth="439.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/fondo.jpg" />
+            <Image url="@assets.img/2_fondoMenus.jpg" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.83" />
@@ -40,7 +40,7 @@
       </Text>
       <ImageView fitHeight="100.0" fitWidth="237.0" layoutX="237.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/cochomil.png" />
+            <Image url="@assets.img/fondoChocomilk.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -48,7 +48,7 @@
       </ImageView>
       <ImageView fitHeight="100.0" fitWidth="178.0" layoutX="20.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/licuados.png" />
+            <Image url="@assets.img/fondoLicuado.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -56,7 +56,7 @@
       </ImageView>
       <ImageView fitHeight="102.0" fitWidth="178.0" layoutX="20.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/cafe.png" />
+            <Image url="@assets.img/fondoCafe.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -69,7 +69,7 @@
          <children>
             <ImageView fitHeight="51.0" fitWidth="30.0" layoutX="311.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/png-transparent-fast-food-hamburger-drawing-coloring-book-comida-rapida-angle-white-food(1)%20(1).png" />
+                  <Image url="@assets.img/seleccionMenuSoda.png" />
                </image>
                <effect>
                   <ColorAdjust brightness="0.47" />
@@ -77,7 +77,7 @@
             </ImageView>
             <ImageView fitHeight="51.0" fitWidth="73.0" layoutX="78.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/comida.png" />
+                  <Image url="@assets.img/seleccionMenuComidaNoPantalla.png" />
                </image>
                <effect>
                   <ColorAdjust brightness="1.0" />
@@ -111,7 +111,7 @@
          <children>
             <ImageView fitHeight="36.0" fitWidth="46.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/Carrito%20de%20compras.png" />
+                  <Image url="@assets.img/carritoCompras.png" />
                </image>
                <effect>
                   <ColorAdjust brightness="0.01" contrast="-1.0" hue="-0.04" saturation="1.0" />
@@ -121,7 +121,7 @@
       </AnchorPane>
       <ImageView fitHeight="100.0" fitWidth="192.0" layoutX="237.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/image.png" />
+            <Image url="@assets.img/fondoSoda.png" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.5" />
@@ -133,7 +133,7 @@
                <children>
                   <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets.img/40354.png" />
+                        <Image url="@assets.img/descuentoPrecio.png" />
                      </image>
                   </ImageView>
                   <Text fill="#0d61b5" layoutX="24.0" layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="17.2%oN" wrappingWidth="54.0">
@@ -151,7 +151,7 @@
                <children>
                   <ImageView fitHeight="17.0" fitWidth="16.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@assets.img/40354.png" />
+                        <Image url="@assets.img/descuentoPrecio.png" />
                      </image>
                   </ImageView>
                   <Text fill="#0d61b5" layoutX="30.0" layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8%oN" wrappingWidth="39.2958984375">
@@ -163,42 +163,42 @@
             </AnchorPane>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="166.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="166.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="387.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="387.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="166.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="166.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="387.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+      <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="387.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 90;">
          <image>
-            <Image url="@assets.img/menu.png" />
+            <Image url="@assets.img/entrar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
-      <Button fx:id="btnMenuCafe" layoutX="20.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#bntCafeOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
-      <Button fx:id="btnMenuChocomil" layoutX="237.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#bntChocoOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
-      <Button fx:id="btnMenuLicuado" layoutX="20.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#bntLicuadOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMEnuComida.css" />
-      <Button fx:id="btnMenuSodas" layoutX="237.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#bntSodasOnMouseClick" prefHeight="98.0" prefWidth="175.0" stylesheets="@StilesMEnuComida.css" />
+      <Button fx:id="btnMenuCafe" layoutX="20.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#bntCafeOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMenu.css" />
+      <Button fx:id="btnMenuChocomil" layoutX="237.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#bntChocoOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMenu.css" />
+      <Button fx:id="btnMenuLicuado" layoutX="20.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#bntLicuadOnMouseClick" prefHeight="98.0" prefWidth="178.0" stylesheets="@StilesMenu.css" />
+      <Button fx:id="btnMenuSodas" layoutX="237.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#bntSodasOnMouseClick" prefHeight="98.0" prefWidth="175.0" stylesheets="@StilesMenu.css" />
       <Button fx:id="btnConfig" accessibleRole="IMAGE_VIEW" layoutX="389.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#btnConfigOnMouseClick" opacity="0.0" prefHeight="21.0" prefWidth="24.0" text="Button">
          <effect>
             <ColorAdjust brightness="1.0" />

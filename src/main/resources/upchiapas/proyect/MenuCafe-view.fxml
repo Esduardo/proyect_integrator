@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -17,7 +16,7 @@
    <children>
       <ImageView fitHeight="639.0" fitWidth="439.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/fondo.jpg" />
+            <Image url="@assets.img/2_fondoMenus.jpg" />
          </image>
          <effect>
             <ColorAdjust brightness="-0.97" />
@@ -25,7 +24,7 @@
       </ImageView>
       <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/menu%20.png" />
+            <Image url="@assets.img/menu.png" />
          </image>
       </ImageView>
       <Text fill="WHITE" layoutX="66.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menú y Precios">
@@ -51,69 +50,65 @@
             </LinearGradient>
          </stroke>
       </Line>
-      <AnchorPane layoutY="122.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+      <AnchorPane layoutY="122.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
          <children>
             <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/image%20(1).png" />
+                  <Image url="@assets.img/menuCafe.png" />
                </image>
             </ImageView>
-            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
-            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="244.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+      <AnchorPane layoutY="244.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
          <children>
             <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/image%20(1).png" />
+                  <Image url="@assets.img/menuCafe.png" />
                </image>
             </ImageView>
-            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
-            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="366.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+      <AnchorPane layoutY="366.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
          <children>
             <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/image%20(1).png" />
+                  <Image url="@assets.img/menuCafe.png" />
                </image>
             </ImageView>
-            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
-            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="488.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuAlimentos.css">
+      <AnchorPane layoutY="488.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
          <children>
             <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets.img/image%20(1).png" />
+                  <Image url="@assets.img/menuCafe.png" />
                </image>
             </ImageView>
-            <Label layoutX="131.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuAlimentos.css" text="Empandas Normales" textFill="WHITE">
+            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
-            <TextArea accessibleRole="TEXT" layoutX="122.0" layoutY="43.0" prefHeight="67.0" prefWidth="200.0" />
          </children>
       </AnchorPane>
       <ImageView fx:id="bntRegresar" accessibleRole="BUTTON" fitHeight="98.0" fitWidth="70.0" layoutX="359.0" layoutY="-12.0" onMouseClicked="#btnRegresarOnMouseClick" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets.img/flechas-en-fondo-blanco-conjunto-vectorial-icono-de-dirección-negras-vectoriales-simple-169401717.png" />
+            <Image url="@assets.img/regresar.png" />
          </image>
          <effect>
             <ColorAdjust brightness="1.0" />
