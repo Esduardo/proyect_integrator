@@ -12,6 +12,7 @@ import upchiapas.proyect.models.ValideUser;
 
 public class ConfiguracionesController extends ValideUser {
 
+    boolean isExit = false;
     @FXML
     private  Label lblNameUsuario;
     @FXML
@@ -43,7 +44,18 @@ public class ConfiguracionesController extends ValideUser {
 
     @FXML
     public void initialize(){
-        lblNameUsuario.setText(String.valueOf(Main.getStage().getUserData()));
+        for(int i = 0; i < Main.listaUsers.size(); i++){
+            if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())){
+                lblNameUsuario.setText(String.valueOf(Main.listaUsers.get(i).getNombre()));
+                isExit = true;
+            }
+            else if(!isExit){
+                for (int j = 0; j < ValideUser.cajas.size(); j++) {
+                    if(ValideUser.cajas.get(i).getEmail().equals(Main.getStage().getUserData())){
+                        lblNameUsuario.setText(String.valueOf(ValideUser.cajas.get(i).getNombre()));
+                    }
+                }
+            }
+        }
     }
-
 }

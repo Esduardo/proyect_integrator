@@ -56,6 +56,25 @@ public class MenuEmpanadaController {
         Main.setFXML("MenuComida-view", "Menu - Express Foot");
     }
 
+    @FXML
+    public void initialize(){
+        lblNombre1.setText(Main.listaAlimentos.get(8).getNombre());
+        lblDefinition1.setText(Main.listaAlimentos.get(8).getNomAlimento());
+        lblCosto1.setText("$" + Main.listaAlimentos.get(8).getCosto());
+
+        lblNombre2.setText(Main.listaAlimentos.get(9).getNombre());
+        lblDefinition2.setText(Main.listaAlimentos.get(9).getNomAlimento());
+        lblCosto2.setText("$" + Main.listaAlimentos.get(9).getCosto());
+
+        lblNombre3.setText(Main.listaAlimentos.get(10).getNombre());
+        lblDefinition3.setText(Main.listaAlimentos.get(10).getNomAlimento());
+        lblCosto3.setText("$" + Main.listaAlimentos.get(10).getCosto());
+
+        lblNombre4.setText(Main.listaAlimentos.get(11).getNombre());
+        lblDefinition4.setText(Main.listaAlimentos.get(11).getNomAlimento());
+        lblCosto4.setText("$" + Main.listaAlimentos.get(11).getCosto());
+    }
+
 }
 
 

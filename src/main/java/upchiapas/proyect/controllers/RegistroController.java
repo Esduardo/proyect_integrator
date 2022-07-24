@@ -32,13 +32,10 @@ public class RegistroController {
     @FXML
     private PasswordField txtPasswordRegistro;
 
-
-
-
     @FXML
     void btnRegistroOnMouseClick(MouseEvent event) throws IOException{
         if(txtPasswordRegistro.getText().equals(txtConfirmPasswordRegistro.getText())){
-            Main.listaUsers.add(new User(txtNameRegistro.getText(), txtEmailRegistro.getText(), txtPasswordRegistro.getText()));
+           Main.listaUsers.add(new User(txtNameRegistro.getText(), txtEmailRegistro.getText(), txtPasswordRegistro.getText(), User.listaCompras));
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setHeaderText(null);
             alert.setTitle("Login");

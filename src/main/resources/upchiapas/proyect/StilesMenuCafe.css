@@ -1,0 +1,12 @@
+.selection{
+    -fx-background-color: #000000;
+    -fx-border-color: rgba(183, 183, 183, 0.61);
+    -fx-border-width: 0.1px;
+}
+.text-area{
+    -fx-background-color: rgb(255, 0, 0);
+}
+.selection:hover{
+    -fx-background-color: rgba(183, 183, 183, 0.39);
+    -fx-font-size: 14px;
+}

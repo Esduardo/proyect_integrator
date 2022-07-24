@@ -1,19 +1,18 @@
 package upchiapas.proyect.controllers;
 
-import javafx.application.Application;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.Button;
-import javafx.scene.control.ScrollPane;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
-import javafx.stage.Stage;
 import upchiapas.proyect.Main;
 
 import java.io.IOException;
 
-
 public class MenuComidaController {
+    @FXML
+    private Button btnVerCompras;
+    @FXML
+    private Label lblCantidadCompras;
     @FXML
     private Button btnMenuMaruchan;
     @FXML
@@ -58,6 +57,20 @@ public class MenuComidaController {
     @FXML
     void bntQuesadillaOnMouseClick(MouseEvent event) {
         Main.setFXML("MenuQuesadilla-view", "Menu - Express Foot");
+    }
+
+    @FXML
+    void btnVerComprasOnMouseClick(MouseEvent event) {
+        Main.setFXML("notificacion-view", "Menu - Express Foot");
+    }
+
+    @FXML
+    public void initialize(){
+        for(int i = 0; i < Main.listaUsers.size(); i++){
+            if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())) {
+                lblCantidadCompras.setText(String.valueOf(Main.listaUsers.get(i).getListaCompras().size()));
+            }
+        }
     }
 }
 

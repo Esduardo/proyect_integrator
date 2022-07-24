@@ -6,7 +6,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import upchiapas.proyect.Main;
 
-public class MenuCafeController {
+public class MenuSodaController {
 
     @FXML
     private ImageView bntRegresar;
@@ -54,20 +54,21 @@ public class MenuCafeController {
 
     @FXML
     public void initialize(){
-        lblNombre4.setText(Main.listaBebidas.get(0).getNombre());
-        lblDefinition4.setText(Main.listaBebidas.get(0).getNomBebida());
-        lblCosto4.setText("$" + Main.listaAlimentos.get(0).getCosto());
+        lblNombre4.setText(Main.listaBebidas.get(12).getNombre());
+        lblDefinition4.setText(Main.listaBebidas.get(12).getNomBebida());
+        lblCosto4.setText("$" + Main.listaAlimentos.get(12).getCosto());
 
-        lblNombre1.setText(Main.listaBebidas.get(1).getNombre());
-        lblDefinition1.setText(Main.listaBebidas.get(1).getNomBebida());
-        lblCosto1.setText("$" + Main.listaBebidas.get(1).getCosto());
+        lblNombre1.setText(Main.listaBebidas.get(13).getNombre());
+        lblDefinition1.setText(Main.listaBebidas.get(13).getNomBebida());
+        lblCosto1.setText("$" + Main.listaBebidas.get(13).getCosto());
 
-        lblNombre2.setText(Main.listaBebidas.get(2).getNombre());
-        lblDefinition2.setText(Main.listaBebidas.get(2).getNomBebida());
-        lblCosto2.setText("$" + Main.listaBebidas.get(2).getCosto());
+        lblNombre2.setText(Main.listaBebidas.get(14).getNombre());
+        lblDefinition2.setText(Main.listaBebidas.get(14).getNomBebida());
+        lblCosto2.setText("$" + Main.listaBebidas.get(14).getCosto());
 
-        lblNombre3.setText(Main.listaBebidas.get(3).getNombre());
-        lblDefinition3.setText(Main.listaBebidas.get(3).getNomBebida());
-        lblCosto3.setText("$" + Main.listaBebidas.get(3).getCosto());
+        lblNombre3.setText(Main.listaBebidas.get(15).getNombre());
+        lblDefinition3.setText(Main.listaBebidas.get(15).getNomBebida());
+        lblCosto3.setText("$" + Main.listaBebidas.get(15).getCosto());
     }
 }
+

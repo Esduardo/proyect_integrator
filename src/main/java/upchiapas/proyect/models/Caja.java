@@ -1,11 +1,11 @@
 package upchiapas.proyect.models;
 
-public class Admin {
+public class Caja {
     private String nombre;
     private String email;
     private String password;
 
-    public Admin(String nombre, String email, String password) {
+    public Caja(String nombre, String email, String password) {
         this.nombre = nombre;
         this.email = email;
         this.password = password;

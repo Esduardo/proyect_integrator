@@ -6,7 +6,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import upchiapas.proyect.Main;
 
-public class MenuCafeController {
+public class MenuLicuadoController {
 
     @FXML
     private ImageView bntRegresar;
@@ -54,20 +54,21 @@ public class MenuCafeController {
 
     @FXML
     public void initialize(){
-        lblNombre4.setText(Main.listaBebidas.get(0).getNombre());
-        lblDefinition4.setText(Main.listaBebidas.get(0).getNomBebida());
-        lblCosto4.setText("$" + Main.listaAlimentos.get(0).getCosto());
+        lblNombre4.setText(Main.listaBebidas.get(8).getNombre());
+        lblDefinition4.setText(Main.listaBebidas.get(8).getNomBebida());
+        lblCosto4.setText("$" + Main.listaAlimentos.get(8).getCosto());
 
-        lblNombre1.setText(Main.listaBebidas.get(1).getNombre());
-        lblDefinition1.setText(Main.listaBebidas.get(1).getNomBebida());
-        lblCosto1.setText("$" + Main.listaBebidas.get(1).getCosto());
+        lblNombre1.setText(Main.listaBebidas.get(9).getNombre());
+        lblDefinition1.setText(Main.listaBebidas.get(9).getNomBebida());
+        lblCosto1.setText("$" + Main.listaBebidas.get(9).getCosto());
 
-        lblNombre2.setText(Main.listaBebidas.get(2).getNombre());
-        lblDefinition2.setText(Main.listaBebidas.get(2).getNomBebida());
-        lblCosto2.setText("$" + Main.listaBebidas.get(2).getCosto());
+        lblNombre2.setText(Main.listaBebidas.get(10).getNombre());
+        lblDefinition2.setText(Main.listaBebidas.get(10).getNomBebida());
+        lblCosto2.setText("$" + Main.listaBebidas.get(10).getCosto());
 
-        lblNombre3.setText(Main.listaBebidas.get(3).getNombre());
-        lblDefinition3.setText(Main.listaBebidas.get(3).getNomBebida());
-        lblCosto3.setText("$" + Main.listaBebidas.get(3).getCosto());
+        lblNombre3.setText(Main.listaBebidas.get(11).getNombre());
+        lblDefinition3.setText(Main.listaBebidas.get(11).getNomBebida());
+        lblCosto3.setText("$" + Main.listaBebidas.get(11).getCosto());
     }
 }
+

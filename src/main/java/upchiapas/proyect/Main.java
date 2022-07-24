@@ -40,9 +40,24 @@ public class Main extends Application {
     }
     static public void addBebidas(){
         listaBebidas.add(new Bebida("Cafe", (byte) 5, "Americano", 12.00));
-        listaBebidas.add(new Bebida("Chocomilk",(byte) 6, "Cocomilk", 45.00));
-        listaBebidas.add(new Bebida("Licuados", (byte) 7, "Fresas", 23.50));
+        listaBebidas.add(new Bebida("Cafe", (byte) 5, "Nescafe", 13.00));
+        listaBebidas.add(new Bebida("Cafe", (byte) 5, "Cargado", 12.00));
+        listaBebidas.add(new Bebida("Cafe", (byte) 5, "de Mata", 14.22));
+
+        listaBebidas.add(new Bebida("Chocomilk",(byte) 6, "Fresa", 45.00));
+        listaBebidas.add(new Bebida("Chocomilk",(byte) 6, "Choco - Paleta", 45.00));
+        listaBebidas.add(new Bebida("Chocomilk",(byte) 6, "Pancho Pantera", 45.00));
+        listaBebidas.add(new Bebida("Chocomilk",(byte) 6, "Choco - Canela", 45.00));
+
+        listaBebidas.add(new Bebida("Licuados", (byte) 7, "Fresas", 20.50));
+        listaBebidas.add(new Bebida("Licuados", (byte) 7, "Arandanos", 23.50));
+        listaBebidas.add(new Bebida("Licuados", (byte) 7, "Piña", 22.50));
+        listaBebidas.add(new Bebida("Licuados", (byte) 7, "Uva", 23.50));
+
         listaBebidas.add(new Bebida("Soda", (byte) 8, "Coca-Cola", 17.00));
+        listaBebidas.add(new Bebida("Soda", (byte) 8, "Pepsi", 15.00));
+        listaBebidas.add(new Bebida("Soda", (byte) 8, "Fanta", 13.00));
+        listaBebidas.add(new Bebida("Soda", (byte) 8, "Sprite", 15.00));
     }
 
     private static Stage stage;
@@ -53,7 +68,8 @@ public class Main extends Application {
         this.stage = stage;
         addAlimentos();
         addBebidas();
-        listaUsers.add(new User("Esduardo","eduartrob@gmail.com","12345678"));
+        listaUsers.add(new User("Esduardo","eduartrob@gmail.com","12345678", User.listaCompras));
+        listaUsers.add(new User("juan", "juan@123.com", "123", User.listaCompras));
         scene = new Scene(loadFXML("login-view"));
         stage.setTitle("Login - Express Foot");
         stage.setScene(scene);

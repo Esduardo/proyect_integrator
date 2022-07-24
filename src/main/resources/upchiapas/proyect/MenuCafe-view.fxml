@@ -50,62 +50,6 @@
             </LinearGradient>
          </stroke>
       </Line>
-      <AnchorPane layoutY="122.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
-         <children>
-            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@assets.img/menuCafe.png" />
-               </image>
-            </ImageView>
-            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutY="244.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
-         <children>
-            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@assets.img/menuCafe.png" />
-               </image>
-            </ImageView>
-            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutY="366.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
-         <children>
-            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@assets.img/menuCafe.png" />
-               </image>
-            </ImageView>
-            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutY="488.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuQuesadilla.css">
-         <children>
-            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@assets.img/menuCafe.png" />
-               </image>
-            </ImageView>
-            <Label layoutX="132.0" layoutY="51.0" prefHeight="17.0" prefWidth="201.0" styleClass="texto" stylesheets="@StilesMenuQuesadilla.css" text="Empandas Normales" textFill="WHITE">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
       <ImageView fx:id="bntRegresar" accessibleRole="BUTTON" fitHeight="98.0" fitWidth="70.0" layoutX="359.0" layoutY="-12.0" onMouseClicked="#btnRegresarOnMouseClick" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets.img/regresar.png" />
@@ -114,5 +58,117 @@
             <ColorAdjust brightness="1.0" />
          </effect>
       </ImageView>
+      <AnchorPane layoutY="244.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuCafe.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/menuCafe.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblNombre2" layoutX="128.0" layoutY="23.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDefinition2" layoutX="128.0" layoutY="58.0" prefHeight="17.0" prefWidth="218.0" textFill="WHITE" />
+            <Label fx:id="lblCosto2" layoutX="129.0" layoutY="82.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/añadir.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.4" contrast="-0.66" hue="-0.65" saturation="1.0" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="122.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuCafe.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/menuCafe.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblNombre1" layoutX="128.0" layoutY="23.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDefinition1" layoutX="128.0" layoutY="58.0" prefHeight="17.0" prefWidth="218.0" textFill="WHITE" />
+            <Label fx:id="lblCosto1" layoutX="129.0" layoutY="82.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/añadir.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.4" contrast="-0.66" hue="-0.65" saturation="1.0" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="488.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuCafe.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/menuCafe.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblNombre4" layoutX="128.0" layoutY="23.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDefinition4" layoutX="128.0" layoutY="58.0" prefHeight="17.0" prefWidth="218.0" textFill="WHITE" />
+            <Label fx:id="lblCosto4" layoutX="129.0" layoutY="82.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/añadir.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.4" contrast="-0.66" hue="-0.65" saturation="1.0" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="366.0" prefHeight="122.0" prefWidth="429.0" styleClass="selection" stylesheets="@StilesMenuCafe.css">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="129.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/menuCafe.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblNombre3" layoutX="128.0" layoutY="23.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDefinition3" layoutX="128.0" layoutY="58.0" prefHeight="17.0" prefWidth="218.0" textFill="WHITE" />
+            <Label fx:id="lblCosto3" layoutX="129.0" layoutY="82.0" prefHeight="17.0" prefWidth="201.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/añadir.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.4" contrast="-0.66" hue="-0.65" saturation="1.0" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

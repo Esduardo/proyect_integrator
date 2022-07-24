@@ -32,17 +32,17 @@ public class MenuBebidasController {
 
     @FXML
     void bntChocoOnMouseClick(MouseEvent event) {
-
+        Main.setFXML("MenuChocomilk-view", "Menu - Express Foot");
     }
 
     @FXML
     void bntLicuadOnMouseClick(MouseEvent event) {
-
+        Main.setFXML("MenuLicuado-view", "Menu - Express Foot");
     }
 
     @FXML
     void bntSodasOnMouseClick(MouseEvent event) {
-
+        Main.setFXML("MenuSoda-view", "Menu - Express Foot");
     }
 
     @FXML

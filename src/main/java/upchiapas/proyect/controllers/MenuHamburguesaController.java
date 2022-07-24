@@ -56,4 +56,23 @@ public class MenuHamburguesaController {
         Main.setFXML("MenuComida-view", "Menu - Express Foot");
     }
 
+    @FXML
+    public void initialize(){
+        lblNombre1.setText(Main.listaAlimentos.get(4).getNombre());
+        lblDefinition1.setText(Main.listaAlimentos.get(4).getNomAlimento());
+        lblCosto1.setText("$" + Main.listaAlimentos.get(4).getCosto());
+
+        lblNombre2.setText(Main.listaAlimentos.get(5).getNombre());
+        lblDefinition2.setText(Main.listaAlimentos.get(5).getNomAlimento());
+        lblCosto2.setText("$" + Main.listaAlimentos.get(5).getCosto());
+
+        lblNombre3.setText(Main.listaAlimentos.get(6).getNombre());
+        lblDefinition3.setText(Main.listaAlimentos.get(6).getNomAlimento());
+        lblCosto3.setText("$" + Main.listaAlimentos.get(6).getCosto());
+
+        lblNombre4.setText(Main.listaAlimentos.get(7).getNombre());
+        lblDefinition4.setText(Main.listaAlimentos.get(7).getNomAlimento());
+        lblCosto4.setText("$" + Main.listaAlimentos.get(7).getCosto());
+    }
+
 }

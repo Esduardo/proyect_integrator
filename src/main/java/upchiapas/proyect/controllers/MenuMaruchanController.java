@@ -56,4 +56,22 @@ public class MenuMaruchanController {
         Main.setFXML("MenuComida-view", "Menu - Express Foot");
     }
 
+    @FXML
+    public void initialize(){
+        lblNombre1.setText(Main.listaAlimentos.get(12).getNombre());
+        lblDefinition1.setText(Main.listaAlimentos.get(12).getNomAlimento());
+        lblCosto1.setText("$" + Main.listaAlimentos.get(12).getCosto());
+
+        lblNombre2.setText(Main.listaAlimentos.get(13).getNombre());
+        lblDefinition2.setText(Main.listaAlimentos.get(13).getNomAlimento());
+        lblCosto2.setText("$" + Main.listaAlimentos.get(13).getCosto());
+
+        lblNombre3.setText(Main.listaAlimentos.get(14).getNombre());
+        lblDefinition3.setText(Main.listaAlimentos.get(14).getNomAlimento());
+        lblCosto3.setText("$" + Main.listaAlimentos.get(14).getCosto());
+
+        lblNombre4.setText(Main.listaAlimentos.get(15).getNombre());
+        lblDefinition4.setText(Main.listaAlimentos.get(15).getNomAlimento());
+        lblCosto4.setText("$" + Main.listaAlimentos.get(15).getCosto());
+    }
 }
