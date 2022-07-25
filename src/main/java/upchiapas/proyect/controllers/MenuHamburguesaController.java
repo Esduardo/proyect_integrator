@@ -6,14 +6,20 @@ import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import upchiapas.proyect.Main;
+import upchiapas.proyect.models.Comprar;
 
 public class MenuHamburguesaController {
+    @FXML
+    private ImageView btnAgregar1;
 
     @FXML
-    private ImageView bntRegresar;
+    private ImageView btnAgregar2;
 
     @FXML
-    private Button btnRegresar;
+    private ImageView btnAgregar3;
+
+    @FXML
+    private ImageView btnAgregar4;
 
     @FXML
     private Label lblCosto1;
@@ -75,4 +81,43 @@ public class MenuHamburguesaController {
         lblCosto4.setText("$" + Main.listaAlimentos.get(7).getCosto());
     }
 
+    @FXML
+    void btnAgregar1OnMouseClick(MouseEvent event) {
+        for(int i = 0; i < Main.listaUsers.size(); i++){
+            if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())){
+                Main.listaUsers.get(i).getListaCompras().add(new Comprar(Main.listaAlimentos.get(4).getNomAlimento(), Main.listaAlimentos.get(4).getCosto()));
+                System.out.println(Main.listaUsers.get(i).getListaCompras().get(4).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(4).getPrecio());
+            }
+        }
+    }
+
+    @FXML
+    void btnAgregar2OnMouseClick(MouseEvent event) {
+        for(int i = 0; i < Main.listaUsers.size(); i++){
+            if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())) {
+                Main.listaUsers.get(i).getListaCompras().add(new Comprar(Main.listaAlimentos.get(5).getNomAlimento(), Main.listaAlimentos.get(5).getCosto()));
+                System.out.println(Main.listaUsers.get(i).getListaCompras().get(5).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(5).getPrecio());
+            }
+        }
+    }
+
+    @FXML
+    void btnAgregar3OnMouseClick(MouseEvent event) {
+        for(int i = 0; i < Main.listaUsers.size(); i++){
+            if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())){
+                Main.listaUsers.get(i).getListaCompras().add(new Comprar(Main.listaAlimentos.get(6).getNomAlimento(), Main.listaAlimentos.get(6).getCosto()));
+                System.out.println(Main.listaUsers.get(i).getListaCompras().get(6).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(6).getPrecio());
+            }
+        }
+    }
+
+    @FXML
+    void btnAgregar4OnMouseClick(MouseEvent event) {
+        for(int i = 0; i < Main.listaUsers.size(); i++){
+            if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())){
+                Main.listaUsers.get(i).getListaCompras().add(new Comprar(Main.listaAlimentos.get(7).getNomAlimento(), Main.listaAlimentos.get(7).getCosto()));
+                System.out.println(Main.listaUsers.get(i).getListaCompras().get(7).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(7).getPrecio());
+            }
+        }
+    }
 }

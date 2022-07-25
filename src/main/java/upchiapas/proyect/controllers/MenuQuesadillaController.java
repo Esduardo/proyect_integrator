@@ -85,7 +85,7 @@ public class MenuQuesadillaController {
         for(int i = 0; i < Main.listaUsers.size(); i++){
             if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())) {
                 Main.listaUsers.get(i).getListaCompras().add(new Comprar(Main.listaAlimentos.get(1).getNomAlimento(), Main.listaAlimentos.get(1).getCosto()));
-                System.out.println(Main.listaUsers.get(i).getListaCompras().get(i).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(i).getPrecio());
+                System.out.println(Main.listaUsers.get(i).getListaCompras().get(1).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(1).getPrecio());
             }
         }
     }
@@ -95,7 +95,7 @@ public class MenuQuesadillaController {
         for(int i = 0; i < Main.listaUsers.size(); i++){
             if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())){
                 Main.listaUsers.get(i).getListaCompras().add(new Comprar(Main.listaAlimentos.get(2).getNomAlimento(), Main.listaAlimentos.get(2).getCosto()));
-                System.out.println(Main.listaUsers.get(i).getListaCompras().get(i).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(i).getPrecio());
+                System.out.println(Main.listaUsers.get(i).getListaCompras().get(2).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(2).getPrecio());
             }
         }
     }
@@ -105,7 +105,7 @@ public class MenuQuesadillaController {
         for(int i = 0; i < Main.listaUsers.size(); i++){
             if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())){
                 Main.listaUsers.get(i).getListaCompras().add(new Comprar(Main.listaAlimentos.get(3).getNomAlimento(), Main.listaAlimentos.get(3).getCosto()));
-                System.out.println(Main.listaUsers.get(i).getListaCompras().get(i).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(i).getPrecio());
+                System.out.println(Main.listaUsers.get(i).getListaCompras().get(3).getNameProduct() + Main.listaUsers.get(i).getListaCompras().get(3).getPrecio());
             }
         }
     }

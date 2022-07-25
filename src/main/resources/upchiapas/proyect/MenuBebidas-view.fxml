@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -107,18 +108,6 @@
             <ColorAdjust brightness="0.7" />
          </effect>
       </ImageView>
-      <AnchorPane layoutX="305.0" layoutY="22.0" prefHeight="28.0" prefWidth="42.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 11%;">
-         <children>
-            <ImageView fitHeight="36.0" fitWidth="46.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@assets.img/carritoCompras.png" />
-               </image>
-               <effect>
-                  <ColorAdjust brightness="0.01" contrast="-1.0" hue="-0.04" saturation="1.0" />
-               </effect>
-            </ImageView>
-         </children>
-      </AnchorPane>
       <ImageView fitHeight="100.0" fitWidth="192.0" layoutX="237.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets.img/fondoSoda.png" />
@@ -204,5 +193,23 @@
             <ColorAdjust brightness="1.0" />
          </effect>
       </Button>
+      <AnchorPane layoutX="303.0" layoutY="28.0" prefHeight="28.0" prefWidth="42.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 11%;">
+         <children>
+            <ImageView fitHeight="24.0" fitWidth="36.0" layoutX="9.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets.img/carritoCompras.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.81" contrast="-0.95" hue="0.22" saturation="1.0" />
+               </effect>
+            </ImageView>
+            <Label fx:id="lblCantidadCompras" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="3.0" prefHeight="24.0" prefWidth="48.0" textFill="#0344ab" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnVerCompras" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#btnVerComprasOnMouseClick" opacity="0.0" prefHeight="25.0" prefWidth="47.0" styleClass="selection" stylesheets="@StilesMenuCafe.css" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

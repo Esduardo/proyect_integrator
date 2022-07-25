@@ -70,7 +70,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnAgregar1" accessibleRole="BUTTON" fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" onMouseClicked="#btnAgregar1OnMouseClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets.img/añadir.png" />
                </image>
@@ -106,7 +106,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnAgregar2" accessibleRole="BUTTON" fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="30.0" onMouseClicked="#btnAgregar2OnMouseClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets.img/añadir.png" />
                </image>
@@ -134,7 +134,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnAgregar3" accessibleRole="BUTTON" fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="30.0" onMouseClicked="#btnAgregar3OnMouseClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets.img/añadir.png" />
                </image>
@@ -162,7 +162,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnAgregar4" accessibleRole="BUTTON" fitHeight="67.0" fitWidth="57.0" layoutX="358.0" layoutY="33.0" onMouseClicked="#btnAgregar4OnMouseClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets.img/añadir.png" />
                </image>

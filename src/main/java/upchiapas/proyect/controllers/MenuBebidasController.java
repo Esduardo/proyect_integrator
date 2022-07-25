@@ -2,6 +2,7 @@ package upchiapas.proyect.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import upchiapas.proyect.Main;
 
@@ -24,6 +25,13 @@ public class MenuBebidasController {
 
     @FXML
     private Button btnMenuSodas;
+
+    @FXML
+    private Label lblCantidadCompras;
+
+
+    @FXML
+    private Button btnVerCompras;
 
     @FXML
     void bntCafeOnMouseClick(MouseEvent event) {
@@ -53,6 +61,15 @@ public class MenuBebidasController {
     @FXML
     void btnMenuComidaOnMouseClick(MouseEvent event) {
         Main.setFXML("MenuComida-view", "Menu - Express Foot");
+    }
+
+    @FXML
+    public void initialize(){
+        for(int i = 0; i < Main.listaUsers.size(); i++){
+            if(Main.listaUsers.get(i).getEmail().equals(Main.getStage().getUserData())) {
+                lblCantidadCompras.setText(String.valueOf(Main.listaUsers.get(i).getListaCompras().size()));
+            }
+        }
     }
 
 }
