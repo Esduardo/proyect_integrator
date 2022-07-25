@@ -110,11 +110,12 @@
                   <ColorAdjust brightness="0.81" contrast="-0.95" hue="0.22" saturation="1.0" />
                </effect>
             </ImageView>
-            <Label fx:id="lblCantidadCompras" alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="1.0" prefHeight="24.0" prefWidth="48.0" textFill="#0344ab" textOverrun="CENTER_ELLIPSIS">
+            <Label fx:id="lblCantidadCompras" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="3.0" prefHeight="24.0" prefWidth="48.0" textFill="#0344ab" textOverrun="CENTER_ELLIPSIS">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
+            <Button fx:id="btnVerCompras" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#btnVerComprasOnMouseClick" opacity="0.0" prefHeight="25.0" prefWidth="47.0" styleClass="selection" stylesheets="@StilesMenuCafe.css" />
          </children>
       </AnchorPane>
       <Button fx:id="btnConfig" accessibleRole="IMAGE_VIEW" layoutX="389.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#btnConfigOnMouseClick" opacity="0.0" prefHeight="21.0" prefWidth="24.0" text="Button">
