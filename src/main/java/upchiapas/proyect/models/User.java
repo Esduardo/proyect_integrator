@@ -7,15 +7,19 @@ public class User{
     private String nombre;
     private String email;
     private String password;
+    private double pagar = 0;
 
-
-    public User(String nombre, String email, String password, ArrayList<Comprar>listaCompras ) {
+    public User(String nombre, String email, String password, ArrayList<Comprar>listaCompras, double pagar ) {
         this.nombre = nombre;
         this.email = email;
         this.password = password;
         this.listaCompras = listaCompras;
+        this.pagar = pagar;
     }
 
+    public double getPagar() {
+        return pagar;
+    }
 
     public String getNombre() {
         return nombre;
@@ -31,5 +35,9 @@ public class User{
 
     public ArrayList<Comprar> getListaCompras() {
         return listaCompras;
+    }
+
+    public void setPagar(double pagar) {
+        this.pagar = pagar;
     }
 }

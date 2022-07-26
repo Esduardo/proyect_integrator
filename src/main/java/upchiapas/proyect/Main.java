@@ -5,15 +5,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import upchiapas.proyect.models.Alimento;
-import upchiapas.proyect.models.Bebida;
-import upchiapas.proyect.models.MenuAlimentoBebida;
-import upchiapas.proyect.models.User;
+import upchiapas.proyect.models.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main extends Application {
+    public static double total = 0;
     public static ArrayList<User> listaUsers = new ArrayList<>();
     public static ArrayList<Alimento> listaAlimentos =  new ArrayList<>();
     public static ArrayList<Bebida> listaBebidas =  new ArrayList<>();
@@ -68,8 +66,7 @@ public class Main extends Application {
         this.stage = stage;
         addAlimentos();
         addBebidas();
-        listaUsers.add(new User("Esduardo","eduartrob@gmail.com","12345678", User.listaCompras));
-        listaUsers.add(new User("juan", "juan@123.com", "123", User.listaCompras));
+        listaUsers.add(new User("Esduardo","eduartrob@gmail.com","12345678", User.listaCompras, 0));
         scene = new Scene(loadFXML("login-view"));
         stage.setTitle("Login - Express Foot");
         stage.setScene(scene);

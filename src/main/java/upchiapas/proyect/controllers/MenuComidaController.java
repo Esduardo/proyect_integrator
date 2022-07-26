@@ -61,7 +61,7 @@ public class MenuComidaController {
 
     @FXML
     void btnVerComprasOnMouseClick(MouseEvent event) {
-        Main.setFXML("notificacion-view", "Menu - Express Foot");
+        Main.setFXML("notificaciones-view", "Menu - Express Foot");
     }
 
     @FXML

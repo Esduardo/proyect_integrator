@@ -29,30 +29,24 @@ public class LoginController {
     @FXML
     public void btnIniciarOnMouseClick(MouseEvent event) {
         ValideUser user = new ValideUser();
-        boolean isExist = false;
-        int i=0;
-        do {
-            if(Main.listaUsers.get(i).getEmail().equals(txtEmail.getText()))
-                if(Main.listaUsers.get(i).getPassword().equals(txtPassword.getText()))
-                    isExist = true;
-            i++;
-        } while(!isExist && i < Main.listaUsers.size());
-
-        if (!isExist)
-            if (user.autenticarUser(txtEmail.getText(), txtPassword.getText()))
-                isExist = true;
-        if (isExist) {
+        for (int j = 0; j < Main.listaUsers.size(); j++) {
+            if(Main.listaUsers.get(j).getEmail().equals(txtEmail.getText())) {
+                if (Main.listaUsers.get(j).getPassword().equals(txtPassword.getText())) {
+                    Main.setFXML("MenuComida-view", "Menu - Express Foot");
+                }
+            } else if(user.autenticarUser(txtEmail.getText(), txtPassword.getText())){
+                Main.setFXML("ListaComprasCaja-view", "Menu - Express Foot");
+            }
+            else {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setHeaderText(null);
+                alert.setTitle("Login");
+                alert.setContentText("Error de inicio de Sesión");
+                alert.showAndWait();
+                Main.setFXML("Login-view", "Login - Express Foot");
+            }
+        }
             Main.getStage().setUserData(txtEmail.getText());
-            Main.setFXML("MenuComida-view", "Menu - Express Foot");
-        }
-        else {
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setHeaderText(null);
-            alert.setTitle("Login");
-            alert.setContentText("Error de inicio de Sesión");
-            alert.showAndWait();
-            Main.setFXML("Login-view", "Login - Express Foot");
-        }
     }
     @FXML
     public void btnSalirOnMouseClick(MouseEvent mouseEvent) {

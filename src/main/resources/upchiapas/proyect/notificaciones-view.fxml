@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.image.Image?>
@@ -7,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="429.0" styleClass="AnchorPane" stylesheets="@StilesNotifi.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="429.0" styleClass="AnchorPane" stylesheets="@StilesNotifi.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="upchiapas.proyect.controllers.ListaPedidosController">
    <children>
       <ImageView fitHeight="639.0" fitWidth="435.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -32,12 +33,12 @@
                   <Font name="Arial Black" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="90.0" layoutY="62.0" text="Express Foot Free">
+            <Label layoutX="90.0" layoutY="62.0" text="Express Food Free">
                <font>
                   <Font name="Consolas" size="11.0" />
                </font>
             </Label>
-            <Label layoutY="109.0" prefHeight="211.0" prefWidth="370.0" style="-fx-background-color: #757A79;">
+            <Label accessibleRole="BUTTON" layoutY="109.0" prefHeight="211.0" prefWidth="370.0" style="-fx-background-color: #757A79;">
                <effect>
                   <ColorAdjust brightness="0.01" />
                </effect>
@@ -58,10 +59,21 @@
             <Label fx:id="txtLpredidos" layoutX="54.0" layoutY="135.0" text="L.pedidos" />
             <Label fx:id="txtLprecios" layoutX="266.0" layoutY="135.0" text="L.precios" />
             <Label layoutX="114.0" layoutY="297.0" text=" captura" textFill="WHITE" />
+            <Label fx:id="lblCantidadPedidos" layoutX="59.0" layoutY="206.0" />
+            <Label fx:id="lblTtotal" layoutX="276.0" layoutY="206.0" />
          </children>
          <effect>
             <ColorAdjust brightness="-0.06" />
          </effect>
       </AnchorPane>
+      <ImageView fx:id="btnSalir" fitHeight="33.0" fitWidth="21.0" layoutX="379.0" layoutY="33.0" onMouseClicked="#btnSalirOnMouseClick" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@assets.img/entrar.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <Button fx:id="btnComprar" layoutX="152.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#btnComprarOnMouseClick" prefHeight="37.0" prefWidth="127.0" styleClass="botonSalir" stylesheets="@StilesConfig.css" text="Generar Pedido" textFill="WHITE" />
    </children>
 </AnchorPane>

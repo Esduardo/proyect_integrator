@@ -6,8 +6,8 @@ public class ValideUser {
     public static ArrayList<Caja> cajas =  new ArrayList<>();
 
     public ValideUser(){
-        cajas.add(new Caja("Esduardo", "admin", "123"));
-        cajas.add(new Caja("Pedro", "admin", "321"));
+        cajas.add(new Caja("Esduardo - caja", "caja1@upchiapas.edu.mx", "12345678"));
+        cajas.add(new Caja("Pedro - caja", "caja2@upchiapas.edu.mx", "87654321"));
     }
 
     public boolean autenticarUser(String userName, String password){

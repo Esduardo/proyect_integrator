@@ -55,12 +55,18 @@ public class MenuBebidasController {
 
     @FXML
     void btnConfigOnMouseClick(MouseEvent event) {
-        Main.setFXML("Configuraciones-view", "Menu - Express Foot");
+
     }
 
     @FXML
     void btnMenuComidaOnMouseClick(MouseEvent event) {
         Main.setFXML("MenuComida-view", "Menu - Express Foot");
+    }
+
+
+    @FXML
+    void btnVerComprasOnMouseClick(MouseEvent event) {
+        Main.setFXML("notificaciones-view", "Menu - Express Foot");
     }
 
     @FXML
@@ -71,5 +77,4 @@ public class MenuBebidasController {
             }
         }
     }
-
 }
